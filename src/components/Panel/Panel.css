@@ -1,0 +1,138 @@
+.expenses {
+    padding: 1rem;
+    background-color: rgb(247, 242, 242);
+    margin: 2rem auto;
+    width: 100%;
+    display: inline;
+  }
+
+.exp{
+  justify-content: flex-start;
+}
+.btn1{
+  color: rgb(255, 136, 0);
+  background-color: rgb(247, 217, 173);
+  font-weight: bold;
+}
+.btn{
+  color: blue;
+  background-color: rgb(212, 243, 242);
+  font-weight: bold;
+}
+.btn2{
+  color: rgb(195, 0, 255);
+  background-color: rgb(243, 197, 252);
+  font-weight: bold;
+}
+.btn3{
+  color: rgb(0, 255, 213);
+  background-color: rgb(195, 248, 246);
+  font-weight: bold;
+}
+
+  .expenses1 {
+    padding: 1rem;
+    background-color: rgb(247, 242, 242);
+    margin: 2rem auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    flex-flow: column;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .expenses2 {
+    padding: 1rem;
+    background-color: rgb(247, 242, 242);
+    margin: 2rem auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    flex-flow: column;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .expenses3 {
+    padding: 1rem;
+    background-color: rgb(247, 242, 242);
+    margin: 2rem auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    flex-flow: column;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .direction{
+    display: block;
+    padding: 1rem;
+    width: 60%;
+    height: auto;
+    word-wrap: normal;  
+    flex-direction: column;
+  }
+  .direction1{
+    display: flex;
+    padding: 1rem;
+    width: 70%;
+    height: auto;
+    word-wrap: normal;  
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .direction2{
+    background-color: rgb(197, 238, 243);
+    display: flex;
+    padding: 1rem;
+    width: 70%;
+    height: auto;
+    word-wrap: normal;  
+    align-items: stretch;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .direction3{
+    background-color: rgb(228, 197, 243);
+    display: flex;
+    padding: 1rem;
+    width: 70%;
+    height: auto;
+    word-wrap: normal;  
+    align-items: stretch;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    flex:1
+  }
+  .direction4{
+    background-color: rgb(243, 227, 197);
+    display: flex;
+    padding: 1rem;
+    width: 70%;
+    height: auto;
+    word-wrap: normal;  
+    align-items: stretch;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .direction5{
+    background-color: rgb(245, 242, 237);
+    display: flex;
+    width: 100%;
+    height: 20%; 
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
